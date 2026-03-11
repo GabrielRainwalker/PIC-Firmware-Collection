@@ -1,0 +1,150 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"56 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\lcd_i2c.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"96
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+"104
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"113
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"121
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+"152
+[v _LCD_Send LCD_Send `(v  1 e 1 0 ]
+"182
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+"186
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+"190
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"249
+[v _LCD_Print LCD_Print `(v  1 e 1 0 ]
+"255
+[v _LCD_SetCursor LCD_SetCursor `(v  1 e 1 0 ]
+"166 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2087
+[v _CMCON CMCON `VEuc  1 e 1 @156 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2717
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2720
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2972
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2975
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"56 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\lcd_i2c.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+} 0
+"255
+[v _LCD_SetCursor LCD_SetCursor `(v  1 e 1 0 ]
+{
+[v LCD_SetCursor@linha linha `uc  1 p 1 wreg ]
+"256
+[v LCD_SetCursor@posicao posicao `uc  1 a 1 12 ]
+"255
+[v LCD_SetCursor@linha linha `uc  1 p 1 wreg ]
+[v LCD_SetCursor@coluna coluna `uc  1 p 1 10 ]
+"259
+[v LCD_SetCursor@linha linha `uc  1 p 1 11 ]
+"266
+} 0
+"249
+[v _LCD_Print LCD_Print `(v  1 e 1 0 ]
+{
+[v LCD_Print@str str `*.24DCuc  1 p 1 10 ]
+"253
+} 0
+"186
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+{
+[v LCD_Data@data data `uc  1 p 1 wreg ]
+[v LCD_Data@data data `uc  1 p 1 wreg ]
+[v LCD_Data@data data `uc  1 p 1 9 ]
+"188
+} 0
+"190
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"247
+} 0
+"182
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 p 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 p 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 p 1 9 ]
+"184
+} 0
+"152
+[v _LCD_Send LCD_Send `(v  1 e 1 0 ]
+{
+[v LCD_Send@value value `uc  1 p 1 wreg ]
+"153
+[v LCD_Send@data data `uc  1 a 1 8 ]
+[v LCD_Send@low_nibble low_nibble `uc  1 a 1 6 ]
+[v LCD_Send@high_nibble high_nibble `uc  1 a 1 5 ]
+"152
+[v LCD_Send@value value `uc  1 p 1 wreg ]
+[v LCD_Send@mode mode `uc  1 p 1 3 ]
+"155
+[v LCD_Send@value value `uc  1 p 1 7 ]
+"180
+} 0
+"121
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+{
+[v I2C_Write@data data `uc  1 p 1 wreg ]
+"122
+[v I2C_Write@i i `uc  1 a 1 2 ]
+"121
+[v I2C_Write@data data `uc  1 p 1 wreg ]
+"124
+[v I2C_Write@data data `uc  1 p 1 1 ]
+"146
+} 0
+"113
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"119
+} 0
+"104
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"111
+} 0
+"96
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+{
+"102
+} 0
