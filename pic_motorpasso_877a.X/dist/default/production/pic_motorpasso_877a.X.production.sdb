@@ -1,0 +1,496 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"34 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\feedback_robo.c
+[e E1006 . `uc
+RGB_DESLIGADO 0
+RGB_VERMELHO 1
+RGB_VERDE 2
+RGB_AZUL 3
+RGB_AMARELO 4
+RGB_MAGENTA 5
+RGB_CIANO 6
+RGB_BRANCO 7
+]
+"52
+[e E1016 . `uc
+BUZZER_SILENCIO 0
+BUZZER_BIPE_CURTO 1
+BUZZER_BIPE_LONGO 2
+BUZZER_BIPES_CONFIRMACAO 3
+BUZZER_ALERTA_CONTINUO 4
+BUZZER_ALERTA_INTERMITENTE 5
+]
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"22 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\comunicar_esp32.c
+[v _usart_isr usart_isr `II(v  1 e 1 0 ]
+"61
+[v _comunicar_esp32_inicializar_usart comunicar_esp32_inicializar_usart `(v  1 e 1 0 ]
+"99
+[v _comunicar_esp32_enviar_byte comunicar_esp32_enviar_byte `(v  1 e 1 0 ]
+"104
+[v _comunicar_esp32_enviar_string comunicar_esp32_enviar_string `(v  1 e 1 0 ]
+"110
+[v _comunicar_esp32_comando_recebido_disponivel comunicar_esp32_comando_recebido_disponivel `(a  1 e 1 0 ]
+"114
+[v _comunicar_esp32_ler_comando_recebido comunicar_esp32_ler_comando_recebido `(a  1 e 1 0 ]
+"8 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\controle_motor.c
+[v _inicializar_motor inicializar_motor `(v  1 e 1 0 ]
+"25
+[v _motores_parar_freio motores_parar_freio `(v  1 e 1 0 ]
+"32
+[v _motores_frente motores_frente `(v  1 e 1 0 ]
+"39
+[v _motores_re motores_re `(v  1 e 1 0 ]
+"46
+[v _motores_virar_direita motores_virar_direita `(v  1 e 1 0 ]
+"53
+[v _motores_virar_esquerda motores_virar_esquerda `(v  1 e 1 0 ]
+"13 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\feedback_robo.c
+[v _delay_ms_variavel delay_ms_variavel `(v  1 e 1 0 ]
+"20
+[v _feedback_inicializar feedback_inicializar `(v  1 e 1 0 ]
+"34
+[v _feedback_led_rgb_definir_cor feedback_led_rgb_definir_cor `(v  1 e 1 0 ]
+"52
+[v _feedback_buzzer_controlar feedback_buzzer_controlar `(v  1 e 1 0 ]
+"77
+[v _feedback_buzzer_parar feedback_buzzer_parar `(v  1 e 1 0 ]
+"86
+[v _feedback_indicar_sistema_pronto feedback_indicar_sistema_pronto `(v  1 e 1 0 ]
+"96
+[v _feedback_indicar_movimento_andamento feedback_indicar_movimento_andamento `(v  1 e 1 0 ]
+"101
+[v _feedback_indicar_comunicacao_uart feedback_indicar_comunicacao_uart `(v  1 e 1 0 ]
+"20 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\main.c
+[v _inicializar_sistema inicializar_sistema `(v  1 e 1 0 ]
+"29
+[v _main main `(v  1 e 1 0 ]
+[s S126 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"231 C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h
+[u S135 . 1 `S126 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES135  1 e 1 @6 ]
+[s S197 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"355
+[u S206 . 1 `S197 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES206  1 e 1 @8 ]
+[s S423 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"475
+[s S432 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S437 . 1 `S423 1 . 1 0 `S432 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES437  1 e 1 @11 ]
+[s S298 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"547
+[u S307 . 1 `S298 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES307  1 e 1 @12 ]
+[s S319 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"992
+[s S328 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S332 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S335 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S338 . 1 `S319 1 . 1 0 `S328 1 . 1 0 `S332 1 . 1 0 `S335 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES338  1 e 1 @24 ]
+"1057
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1064
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+[s S104 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1390
+[u S113 . 1 `S104 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES113  1 e 1 @134 ]
+[s S364 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1452
+[u S373 . 1 `S364 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES373  1 e 1 @135 ]
+[s S176 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1514
+[u S185 . 1 `S176 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES185  1 e 1 @136 ]
+[s S277 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"1633
+[u S286 . 1 `S277 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES286  1 e 1 @140 ]
+[s S385 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2023
+[s S394 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S398 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S401 . 1 `S385 1 . 1 0 `S394 1 . 1 0 `S398 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES401  1 e 1 @152 ]
+"2078
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2085
+[v _CMCON CMCON `VEuc  1 e 1 @156 ]
+"2227
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"13 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\comunicar_esp32.c
+[v _buffer_rx_usart buffer_rx_usart `VE[32]uc  1 s 32 buffer_rx_usart ]
+"15
+[v _indice_buffer_rx_usart indice_buffer_rx_usart `VEuc  1 s 1 indice_buffer_rx_usart ]
+"17
+[v _flag_comando_disponivel flag_comando_disponivel `VEa  1 s 1 flag_comando_disponivel ]
+"29 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"34
+[v main@comando_recebido comando_recebido `[32]uc  1 a 32 0 ]
+"67
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+[v strcmp@l l `*.5DCuc  1 p 1 4 ]
+[v strcmp@r r `*.24DCuc  1 p 1 5 ]
+"7
+} 0
+"53 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\controle_motor.c
+[v _motores_virar_esquerda motores_virar_esquerda `(v  1 e 1 0 ]
+{
+"58
+} 0
+"46
+[v _motores_virar_direita motores_virar_direita `(v  1 e 1 0 ]
+{
+"51
+} 0
+"39
+[v _motores_re motores_re `(v  1 e 1 0 ]
+{
+"44
+} 0
+"32
+[v _motores_frente motores_frente `(v  1 e 1 0 ]
+{
+"37
+} 0
+"20 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\main.c
+[v _inicializar_sistema inicializar_sistema `(v  1 e 1 0 ]
+{
+"27
+} 0
+"8 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\controle_motor.c
+[v _inicializar_motor inicializar_motor `(v  1 e 1 0 ]
+{
+"16
+} 0
+"25
+[v _motores_parar_freio motores_parar_freio `(v  1 e 1 0 ]
+{
+"30
+} 0
+"20 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\feedback_robo.c
+[v _feedback_inicializar feedback_inicializar `(v  1 e 1 0 ]
+{
+"32
+} 0
+"61 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\comunicar_esp32.c
+[v _comunicar_esp32_inicializar_usart comunicar_esp32_inicializar_usart `(v  1 e 1 0 ]
+{
+"65
+[v comunicar_esp32_inicializar_usart@spbrg_valor_calc spbrg_valor_calc `ui  1 a 2 16 ]
+"61
+[v comunicar_esp32_inicializar_usart@baud_rate baud_rate `l  1 p 4 12 ]
+"97
+} 0
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 6 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 5 ]
+"10
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 4 ]
+"15
+[v ___xxtofl@sign sign `uc  1 p 1 4 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 79 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 78 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 4 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S800 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S805 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S808 . 4 `l 1 i 4 0 `d 1 f 4 0 `S800 1 fAsBytes 4 0 `S805 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S808  1 a 4 30 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 25 ]
+[s S877 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S880 . 2 `s 1 i 2 0 `us 1 n 2 0 `S877 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S880  1 a 2 34 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 29 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 24 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 23 ]
+"8
+[v ___flmul@b b `d  1 p 4 10 ]
+[v ___flmul@a a `d  1 p 4 14 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `us  1 a 2 2 ]
+"5
+[v __Umul8_16@product product `us  1 a 2 0 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 4 ]
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 4 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 56 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 49 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 54 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 61 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 60 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 53 ]
+"8
+[v ___fldiv@a a `d  1 p 4 36 ]
+[v ___fldiv@b b `d  1 p 4 40 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 3 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 2 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 1 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 0 ]
+"10
+[v ___fladd@b b `d  1 p 4 62 ]
+[v ___fladd@a a `d  1 p 4 66 ]
+"237
+} 0
+"86 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\feedback_robo.c
+[v _feedback_indicar_sistema_pronto feedback_indicar_sistema_pronto `(v  1 e 1 0 ]
+{
+"89
+} 0
+"96
+[v _feedback_indicar_movimento_andamento feedback_indicar_movimento_andamento `(v  1 e 1 0 ]
+{
+"99
+} 0
+"77
+[v _feedback_buzzer_parar feedback_buzzer_parar `(v  1 e 1 0 ]
+{
+"79
+} 0
+"101
+[v _feedback_indicar_comunicacao_uart feedback_indicar_comunicacao_uart `(v  1 e 1 0 ]
+{
+"104
+} 0
+"34
+[v _feedback_led_rgb_definir_cor feedback_led_rgb_definir_cor `(v  1 e 1 0 ]
+{
+[v feedback_led_rgb_definir_cor@cor cor `E1006  1 p 1 wreg ]
+[v feedback_led_rgb_definir_cor@cor cor `E1006  1 p 1 wreg ]
+"36
+[v feedback_led_rgb_definir_cor@cor cor `E1006  1 p 1 6 ]
+"50
+} 0
+"52
+[v _feedback_buzzer_controlar feedback_buzzer_controlar `(v  1 e 1 0 ]
+{
+[v feedback_buzzer_controlar@padrao padrao `E1016  1 p 1 wreg ]
+"54
+[v feedback_buzzer_controlar@off_duration off_duration `ui  1 a 2 7 ]
+"52
+[v feedback_buzzer_controlar@padrao padrao `E1016  1 p 1 wreg ]
+[v feedback_buzzer_controlar@duracao_ms_on duracao_ms_on `ui  1 p 2 0 ]
+[v feedback_buzzer_controlar@duracao_ms_off duracao_ms_off `ui  1 p 2 2 ]
+[v feedback_buzzer_controlar@repeticoes repeticoes `uc  1 p 1 4 ]
+"54
+[v feedback_buzzer_controlar@padrao padrao `E1016  1 p 1 9 ]
+"75
+} 0
+"13
+[v _delay_ms_variavel delay_ms_variavel `(v  1 e 1 0 ]
+{
+[v delay_ms_variavel@milissegundos milissegundos `ui  1 p 2 4 ]
+"18
+} 0
+"114 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_motorpasso_877a.X\comunicar_esp32.c
+[v _comunicar_esp32_ler_comando_recebido comunicar_esp32_ler_comando_recebido `(a  1 e 1 0 ]
+{
+"123
+[v comunicar_esp32_ler_comando_recebido@i i `uc  1 a 1 1 ]
+"118
+[v comunicar_esp32_ler_comando_recebido@tamanho_comando tamanho_comando `uc  1 a 1 0 ]
+"114
+[v comunicar_esp32_ler_comando_recebido@buffer_destino buffer_destino `*.5uc  1 p 1 4 ]
+[v comunicar_esp32_ler_comando_recebido@tamanho_max_buffer tamanho_max_buffer `uc  1 p 1 5 ]
+"135
+} 0
+"104
+[v _comunicar_esp32_enviar_string comunicar_esp32_enviar_string `(v  1 e 1 0 ]
+{
+[v comunicar_esp32_enviar_string@str str `*.24DCuc  1 p 1 5 ]
+"108
+} 0
+"99
+[v _comunicar_esp32_enviar_byte comunicar_esp32_enviar_byte `(v  1 e 1 0 ]
+{
+[v comunicar_esp32_enviar_byte@dado dado `uc  1 p 1 wreg ]
+[v comunicar_esp32_enviar_byte@dado dado `uc  1 p 1 wreg ]
+[v comunicar_esp32_enviar_byte@dado dado `uc  1 p 1 4 ]
+"102
+} 0
+"110
+[v _comunicar_esp32_comando_recebido_disponivel comunicar_esp32_comando_recebido_disponivel `(a  1 e 1 0 ]
+{
+"112
+} 0
+"22
+[v _usart_isr usart_isr `II(v  1 e 1 0 ]
+{
+"25
+[v usart_isr@byte_recebido byte_recebido `uc  1 a 1 3 ]
+"56
+} 0

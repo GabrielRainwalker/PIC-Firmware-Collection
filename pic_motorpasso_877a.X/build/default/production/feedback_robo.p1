@@ -1,0 +1,624 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F164 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v3.00\pic\include/builtins.h
+[v __delay `JF164 ~T0 @X0 0 e ]
+[p i __delay ]
+"1503 C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1503:     struct {
+[s S64 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S64 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"1502
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1502: typedef union {
+[u S63 `S64 1 ]
+[n S63 . . ]
+"1514
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1514: extern volatile TRISDbits_t TRISDbits __attribute__((address(0x088)));
+[v _TRISDbits `VS63 ~T0 @X0 0 e@136 ]
+"344
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 344:     struct {
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"343
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 343: typedef union {
+[u S15 `S16 1 ]
+[n S15 . . ]
+"355
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 355: extern volatile PORTDbits_t PORTDbits __attribute__((address(0x008)));
+[v _PORTDbits `VS15 ~T0 @X0 0 e@8 ]
+"34 feedback_robo.c
+[; ;feedback_robo.c: 34: void feedback_led_rgb_definir_cor(rgb_cor_t cor) {
+[c E1006 0 1 2 3 4 5 6 7 .. ]
+[n E1006 . RGB_DESLIGADO RGB_VERMELHO RGB_VERDE RGB_AZUL RGB_AMARELO RGB_MAGENTA RGB_CIANO RGB_BRANCO  ]
+"52
+[; ;feedback_robo.c: 52: void feedback_buzzer_controlar(buzzer_padrao_t padrao, unsigned int duracao_ms_on, unsigned int duracao_ms_off, unsigned char repeticoes) {
+[c E1016 0 1 2 3 4 5 .. ]
+[n E1016 . BUZZER_SILENCIO BUZZER_BIPE_CURTO BUZZER_BIPE_LONGO BUZZER_BIPES_CONFIRMACAO BUZZER_ALERTA_CONTINUO BUZZER_ALERTA_INTERMITENTE  ]
+"52 C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 52: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"59
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 59: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"66
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 66: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"73
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 73: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"159
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 159: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"166
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 166: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"216
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 216: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"278
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 278: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"340
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 340: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"402
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 402: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"434
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 434: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"454
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 454: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"532
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 532: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"594
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 594: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"634
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 634: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"641
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 641: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"648
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 648: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"655
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 655: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"730
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 730: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"737
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 737: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"808
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 808: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"815
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 815: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"885
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 885: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"892
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 892: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"899
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 899: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"906
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 906: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"964
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 964: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1059
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1059: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1066
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1066: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1073
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1073: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1080
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1080: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1087
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1087: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1094
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1094: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1152
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1152: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1159
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1159: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1255
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1255: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1325
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1325: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1375
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1375: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1437
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1437: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1499
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1499: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1561
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1561: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1618
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1618: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1680
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1680: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1720
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1720: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1754
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1754: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1816
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1816: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1823
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1823: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1830
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1830: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"1999
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1999: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2080
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2080: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2087
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2087: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2157
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2157: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2222
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2222: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2229
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2229: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2288
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2288: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2295
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2295: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2302
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2302: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2309
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2309: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2316
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2316: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2361
+[; ;C:/Users/gduar/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2361: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"13 feedback_robo.c
+[; ;feedback_robo.c: 13: void delay_ms_variavel(unsigned int milissegundos) {
+[v _delay_ms_variavel `(v ~T0 @X0 1 ef1`ui ]
+{
+[e :U _delay_ms_variavel ]
+[v _milissegundos `ui ~T0 @X0 1 r1 ]
+[f ]
+"14
+[; ;feedback_robo.c: 14:     while (milissegundos > 0) {
+[e $U 100  ]
+[e :U 101 ]
+{
+"15
+[; ;feedback_robo.c: 15:         _delay((unsigned long)((999)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 999 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"16
+[; ;feedback_robo.c: 16:         milissegundos--;
+[e -- _milissegundos -> -> 1 `i `ui ]
+"17
+[; ;feedback_robo.c: 17:     }
+}
+[e :U 100 ]
+"14
+[; ;feedback_robo.c: 14:     while (milissegundos > 0) {
+[e $ > _milissegundos -> -> 0 `i `ui 101  ]
+[e :U 102 ]
+"18
+[; ;feedback_robo.c: 18: }
+[e :UE 99 ]
+}
+"20
+[; ;feedback_robo.c: 20: void feedback_inicializar(void) {
+[v _feedback_inicializar `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_inicializar ]
+[f ]
+"22
+[; ;feedback_robo.c: 22:     TRISDbits.TRISD5 = 0;
+[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
+"23
+[; ;feedback_robo.c: 23:     TRISDbits.TRISD7 = 0;
+[e = . . _TRISDbits 0 7 -> -> 0 `i `uc ]
+"24
+[; ;feedback_robo.c: 24:     TRISDbits.TRISD6 = 0;
+[e = . . _TRISDbits 0 6 -> -> 0 `i `uc ]
+"25
+[; ;feedback_robo.c: 25:     TRISDbits.TRISD1 = 0;
+[e = . . _TRISDbits 0 1 -> -> 0 `i `uc ]
+"28
+[; ;feedback_robo.c: 28:     (PORTDbits.RD5 = 0);
+[e = . . _PORTDbits 0 5 -> -> 0 `i `uc ]
+"29
+[; ;feedback_robo.c: 29:     (PORTDbits.RD7 = 0);
+[e = . . _PORTDbits 0 7 -> -> 0 `i `uc ]
+"30
+[; ;feedback_robo.c: 30:     (PORTDbits.RD6 = 0);
+[e = . . _PORTDbits 0 6 -> -> 0 `i `uc ]
+"31
+[; ;feedback_robo.c: 31:     (PORTDbits.RD1 = 0);
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"32
+[; ;feedback_robo.c: 32: }
+[e :UE 103 ]
+}
+"34
+[; ;feedback_robo.c: 34: void feedback_led_rgb_definir_cor(rgb_cor_t cor) {
+[v _feedback_led_rgb_definir_cor `(v ~T0 @X0 1 ef1`E1006 ]
+{
+[e :U _feedback_led_rgb_definir_cor ]
+[v _cor `E1006 ~T0 @X0 1 r1 ]
+[f ]
+"36
+[; ;feedback_robo.c: 36:     (PORTDbits.RD5 = 0);
+[e = . . _PORTDbits 0 5 -> -> 0 `i `uc ]
+"37
+[; ;feedback_robo.c: 37:     (PORTDbits.RD7 = 0);
+[e = . . _PORTDbits 0 7 -> -> 0 `i `uc ]
+"38
+[; ;feedback_robo.c: 38:     (PORTDbits.RD6 = 0);
+[e = . . _PORTDbits 0 6 -> -> 0 `i `uc ]
+"40
+[; ;feedback_robo.c: 40:     switch (cor) {
+[e $U 106  ]
+{
+"41
+[; ;feedback_robo.c: 41:         case RGB_VERMELHO: (PORTDbits.RD5 = 1); break;
+[e :U 107 ]
+[e = . . _PORTDbits 0 5 -> -> 1 `i `uc ]
+[e $U 105  ]
+"42
+[; ;feedback_robo.c: 42:         case RGB_VERDE: (PORTDbits.RD7 = 1); break;
+[e :U 108 ]
+[e = . . _PORTDbits 0 7 -> -> 1 `i `uc ]
+[e $U 105  ]
+"43
+[; ;feedback_robo.c: 43:         case RGB_AZUL: (PORTDbits.RD6 = 1); break;
+[e :U 109 ]
+[e = . . _PORTDbits 0 6 -> -> 1 `i `uc ]
+[e $U 105  ]
+"44
+[; ;feedback_robo.c: 44:         case RGB_AMARELO: (PORTDbits.RD5 = 1); (PORTDbits.RD7 = 1); break;
+[e :U 110 ]
+[e = . . _PORTDbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTDbits 0 7 -> -> 1 `i `uc ]
+[e $U 105  ]
+"45
+[; ;feedback_robo.c: 45:         case RGB_MAGENTA: (PORTDbits.RD5 = 1); (PORTDbits.RD6 = 1); break;
+[e :U 111 ]
+[e = . . _PORTDbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTDbits 0 6 -> -> 1 `i `uc ]
+[e $U 105  ]
+"46
+[; ;feedback_robo.c: 46:         case RGB_CIANO: (PORTDbits.RD7 = 1); (PORTDbits.RD6 = 1); break;
+[e :U 112 ]
+[e = . . _PORTDbits 0 7 -> -> 1 `i `uc ]
+[e = . . _PORTDbits 0 6 -> -> 1 `i `uc ]
+[e $U 105  ]
+"47
+[; ;feedback_robo.c: 47:         case RGB_BRANCO: (PORTDbits.RD5 = 1); (PORTDbits.RD7 = 1); (PORTDbits.RD6 = 1); break;
+[e :U 113 ]
+[e = . . _PORTDbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTDbits 0 7 -> -> 1 `i `uc ]
+[e = . . _PORTDbits 0 6 -> -> 1 `i `uc ]
+[e $U 105  ]
+"48
+[; ;feedback_robo.c: 48:         case RGB_DESLIGADO: default: break;
+[e :U 114 ]
+[e :U 115 ]
+[e $U 105  ]
+"49
+[; ;feedback_robo.c: 49:     }
+}
+[e $U 105  ]
+[e :U 106 ]
+[e [\ -> _cor `ui , $ -> . `E1006 1 `ui 107
+ , $ -> . `E1006 2 `ui 108
+ , $ -> . `E1006 3 `ui 109
+ , $ -> . `E1006 4 `ui 110
+ , $ -> . `E1006 5 `ui 111
+ , $ -> . `E1006 6 `ui 112
+ , $ -> . `E1006 7 `ui 113
+ , $ -> . `E1006 0 `ui 114
+ 115 ]
+[e :U 105 ]
+"50
+[; ;feedback_robo.c: 50: }
+[e :UE 104 ]
+}
+"52
+[; ;feedback_robo.c: 52: void feedback_buzzer_controlar(buzzer_padrao_t padrao, unsigned int duracao_ms_on, unsigned int duracao_ms_off, unsigned char repeticoes) {
+[v _feedback_buzzer_controlar `(v ~T0 @X0 1 ef4`E1016`ui`ui`uc ]
+{
+[e :U _feedback_buzzer_controlar ]
+[v _padrao `E1016 ~T0 @X0 1 r1 ]
+[v _duracao_ms_on `ui ~T0 @X0 1 r2 ]
+[v _duracao_ms_off `ui ~T0 @X0 1 r3 ]
+[v _repeticoes `uc ~T0 @X0 1 r4 ]
+[f ]
+"53
+[; ;feedback_robo.c: 53:     unsigned int on_duration = duracao_ms_on;
+[v _on_duration `ui ~T0 @X0 1 a ]
+[e = _on_duration _duracao_ms_on ]
+"54
+[; ;feedback_robo.c: 54:     unsigned int off_duration = duracao_ms_off;
+[v _off_duration `ui ~T0 @X0 1 a ]
+[e = _off_duration _duracao_ms_off ]
+"56
+[; ;feedback_robo.c: 56:     switch (padrao) {
+[e $U 118  ]
+{
+"57
+[; ;feedback_robo.c: 57:         case BUZZER_BIPE_CURTO:
+[e :U 119 ]
+"58
+[; ;feedback_robo.c: 58:             (PORTDbits.RD1 = 1);
+[e = . . _PORTDbits 0 1 -> -> 1 `i `uc ]
+"59
+[; ;feedback_robo.c: 59:             delay_ms_variavel(100);
+[e ( _delay_ms_variavel (1 -> -> 100 `i `ui ]
+"60
+[; ;feedback_robo.c: 60:             (PORTDbits.RD1 = 0);
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"61
+[; ;feedback_robo.c: 61:             break;
+[e $U 117  ]
+"62
+[; ;feedback_robo.c: 62:         case BUZZER_BIPE_LONGO:
+[e :U 120 ]
+"63
+[; ;feedback_robo.c: 63:             (PORTDbits.RD1 = 1);
+[e = . . _PORTDbits 0 1 -> -> 1 `i `uc ]
+"64
+[; ;feedback_robo.c: 64:             delay_ms_variavel(500);
+[e ( _delay_ms_variavel (1 -> -> 500 `i `ui ]
+"65
+[; ;feedback_robo.c: 65:             (PORTDbits.RD1 = 0);
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"66
+[; ;feedback_robo.c: 66:             break;
+[e $U 117  ]
+"67
+[; ;feedback_robo.c: 67:         case BUZZER_ALERTA_CONTINUO:
+[e :U 121 ]
+"68
+[; ;feedback_robo.c: 68:             (PORTDbits.RD1 = 1);
+[e = . . _PORTDbits 0 1 -> -> 1 `i `uc ]
+"69
+[; ;feedback_robo.c: 69:             break;
+[e $U 117  ]
+"70
+[; ;feedback_robo.c: 70:         case BUZZER_SILENCIO:
+[e :U 122 ]
+"71
+[; ;feedback_robo.c: 71:         default:
+[e :U 123 ]
+"72
+[; ;feedback_robo.c: 72:             (PORTDbits.RD1 = 0);
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"73
+[; ;feedback_robo.c: 73:             break;
+[e $U 117  ]
+"74
+[; ;feedback_robo.c: 74:     }
+}
+[e $U 117  ]
+[e :U 118 ]
+[e [\ -> _padrao `ui , $ -> . `E1016 1 `ui 119
+ , $ -> . `E1016 2 `ui 120
+ , $ -> . `E1016 4 `ui 121
+ , $ -> . `E1016 0 `ui 122
+ 123 ]
+[e :U 117 ]
+"75
+[; ;feedback_robo.c: 75: }
+[e :UE 116 ]
+}
+"77
+[; ;feedback_robo.c: 77: void feedback_buzzer_parar(void) {
+[v _feedback_buzzer_parar `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_buzzer_parar ]
+[f ]
+"78
+[; ;feedback_robo.c: 78:     (PORTDbits.RD1 = 0);
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"79
+[; ;feedback_robo.c: 79: }
+[e :UE 124 ]
+}
+"81
+[; ;feedback_robo.c: 81: void feedback_indicar_erro_critico(void) {
+[v _feedback_indicar_erro_critico `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_erro_critico ]
+[f ]
+"82
+[; ;feedback_robo.c: 82:     feedback_led_rgb_definir_cor(RGB_VERMELHO);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 1 ]
+"83
+[; ;feedback_robo.c: 83:     feedback_buzzer_controlar(BUZZER_ALERTA_CONTINUO, 0, 0, 0);
+[e ( _feedback_buzzer_controlar (4 , , , . `E1016 4 -> -> 0 `i `ui -> -> 0 `i `ui -> -> 0 `i `uc ]
+"84
+[; ;feedback_robo.c: 84: }
+[e :UE 125 ]
+}
+"86
+[; ;feedback_robo.c: 86: void feedback_indicar_sistema_pronto(void) {
+[v _feedback_indicar_sistema_pronto `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_sistema_pronto ]
+[f ]
+"87
+[; ;feedback_robo.c: 87:     feedback_led_rgb_definir_cor(RGB_VERDE);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 2 ]
+"88
+[; ;feedback_robo.c: 88:     feedback_buzzer_controlar(BUZZER_BIPE_CURTO, 0, 0, 0);
+[e ( _feedback_buzzer_controlar (4 , , , . `E1016 1 -> -> 0 `i `ui -> -> 0 `i `ui -> -> 0 `i `uc ]
+"89
+[; ;feedback_robo.c: 89: }
+[e :UE 126 ]
+}
+"91
+[; ;feedback_robo.c: 91: void feedback_indicar_modo_espera(void) {
+[v _feedback_indicar_modo_espera `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_modo_espera ]
+[f ]
+"92
+[; ;feedback_robo.c: 92:     feedback_led_rgb_definir_cor(RGB_AZUL);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 3 ]
+"93
+[; ;feedback_robo.c: 93:     feedback_buzzer_parar();
+[e ( _feedback_buzzer_parar ..  ]
+"94
+[; ;feedback_robo.c: 94: }
+[e :UE 127 ]
+}
+"96
+[; ;feedback_robo.c: 96: void feedback_indicar_movimento_andamento(void) {
+[v _feedback_indicar_movimento_andamento `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_movimento_andamento ]
+[f ]
+"97
+[; ;feedback_robo.c: 97:     feedback_led_rgb_definir_cor(RGB_MAGENTA);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 5 ]
+"98
+[; ;feedback_robo.c: 98:     feedback_buzzer_parar();
+[e ( _feedback_buzzer_parar ..  ]
+"99
+[; ;feedback_robo.c: 99: }
+[e :UE 128 ]
+}
+"101
+[; ;feedback_robo.c: 101: void feedback_indicar_comunicacao_uart(void) {
+[v _feedback_indicar_comunicacao_uart `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_comunicacao_uart ]
+[f ]
+"102
+[; ;feedback_robo.c: 102:     feedback_led_rgb_definir_cor(RGB_AMARELO);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 4 ]
+"103
+[; ;feedback_robo.c: 103:     feedback_buzzer_controlar(BUZZER_BIPE_CURTO, 0, 0, 0);
+[e ( _feedback_buzzer_controlar (4 , , , . `E1016 1 -> -> 0 `i `ui -> -> 0 `i `ui -> -> 0 `i `uc ]
+"104
+[; ;feedback_robo.c: 104: }
+[e :UE 129 ]
+}
+"106
+[; ;feedback_robo.c: 106: void feedback_indicar_aviso_processamento(void) {
+[v _feedback_indicar_aviso_processamento `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_aviso_processamento ]
+[f ]
+"107
+[; ;feedback_robo.c: 107:     feedback_led_rgb_definir_cor(RGB_AMARELO);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 4 ]
+"108
+[; ;feedback_robo.c: 108:     feedback_buzzer_controlar(BUZZER_ALERTA_INTERMITENTE, 150, 400, 3);
+[e ( _feedback_buzzer_controlar (4 , , , . `E1016 5 -> -> 150 `i `ui -> -> 400 `i `ui -> -> 3 `i `uc ]
+"109
+[; ;feedback_robo.c: 109: }
+[e :UE 130 ]
+}
+"111
+[; ;feedback_robo.c: 111: void feedback_indicar_modo_especial(void) {
+[v _feedback_indicar_modo_especial `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_modo_especial ]
+[f ]
+"112
+[; ;feedback_robo.c: 112:     feedback_led_rgb_definir_cor(RGB_MAGENTA);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 5 ]
+"113
+[; ;feedback_robo.c: 113:     feedback_buzzer_parar();
+[e ( _feedback_buzzer_parar ..  ]
+"114
+[; ;feedback_robo.c: 114: }
+[e :UE 131 ]
+}
+"116
+[; ;feedback_robo.c: 116: void feedback_indicar_falha_grave_imediata(void) {
+[v _feedback_indicar_falha_grave_imediata `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_falha_grave_imediata ]
+[f ]
+"117
+[; ;feedback_robo.c: 117:     feedback_led_rgb_definir_cor(RGB_VERMELHO);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 1 ]
+"118
+[; ;feedback_robo.c: 118:     feedback_buzzer_controlar(BUZZER_ALERTA_INTERMITENTE, 100, 100, 10);
+[e ( _feedback_buzzer_controlar (4 , , , . `E1016 5 -> -> 100 `i `ui -> -> 100 `i `ui -> -> 10 `i `uc ]
+"119
+[; ;feedback_robo.c: 119: }
+[e :UE 132 ]
+}
+"121
+[; ;feedback_robo.c: 121: void feedback_indicar_entrega_correta(void) {
+[v _feedback_indicar_entrega_correta `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_entrega_correta ]
+[f ]
+"122
+[; ;feedback_robo.c: 122:     feedback_led_rgb_definir_cor(RGB_BRANCO);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 7 ]
+"123
+[; ;feedback_robo.c: 123:     feedback_buzzer_controlar(BUZZER_BIPES_CONFIRMACAO, 0, 0, 0);
+[e ( _feedback_buzzer_controlar (4 , , , . `E1016 3 -> -> 0 `i `ui -> -> 0 `i `ui -> -> 0 `i `uc ]
+"124
+[; ;feedback_robo.c: 124: }
+[e :UE 133 ]
+}
+"126
+[; ;feedback_robo.c: 126: void feedback_indicar_estado_desligado(void) {
+[v _feedback_indicar_estado_desligado `(v ~T0 @X0 1 ef ]
+{
+[e :U _feedback_indicar_estado_desligado ]
+[f ]
+"127
+[; ;feedback_robo.c: 127:     feedback_led_rgb_definir_cor(RGB_DESLIGADO);
+[e ( _feedback_led_rgb_definir_cor (1 . `E1006 0 ]
+"128
+[; ;feedback_robo.c: 128:     feedback_buzzer_parar();
+[e ( _feedback_buzzer_parar ..  ]
+"129
+[; ;feedback_robo.c: 129: }
+[e :UE 134 ]
+}

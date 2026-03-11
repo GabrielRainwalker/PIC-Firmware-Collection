@@ -1,0 +1,644 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"1622 C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1622:     struct {
+[s S68 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S68 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE PSPIE ]
+"1621
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1621: typedef union {
+[u S67 `S68 1 ]
+[n S67 . . ]
+"1633
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1633: extern volatile PIE1bits_t PIE1bits __attribute__((address(0x08C)));
+[v _PIE1bits `VS67 ~T0 @X0 0 e@140 ]
+"536
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 536:     struct {
+[s S25 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S25 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF PSPIF ]
+"535
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 535: typedef union {
+[u S24 `S25 1 ]
+[n S24 . . ]
+"547
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 547: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x00C)));
+[v _PIR1bits `VS24 ~T0 @X0 0 e@12 ]
+"968
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 968:     struct {
+[s S42 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S42 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"978
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 978:     struct {
+[s S43 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S43 . RCD8 . RC9 ]
+"983
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 983:     struct {
+[s S44 :6 `uc 1 :1 `uc 1 ]
+[n S44 . . nRC8 ]
+"987
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 987:     struct {
+[s S45 :6 `uc 1 :1 `uc 1 ]
+[n S45 . . RC8_9 ]
+"967
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 967: typedef union {
+[u S41 `S42 1 `S43 1 `S44 1 `S45 1 ]
+[n S41 . . . . . ]
+"992
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 992: extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0x018)));
+[v _RCSTAbits `VS41 ~T0 @X0 0 e@24 ]
+"1064
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1064: extern volatile unsigned char RCREG __attribute__((address(0x01A)));
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+"1441
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1441:     struct {
+[s S62 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S62 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"1440
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1440: typedef union {
+[u S61 `S62 1 ]
+[n S61 . . ]
+"1452
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1452: extern volatile TRISCbits_t TRISCbits __attribute__((address(0x087)));
+[v _TRISCbits `VS61 ~T0 @X0 0 e@135 ]
+"2003
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2003:     struct {
+[s S85 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S85 . TX9D TRMT BRGH . SYNC TXEN TX9 CSRC ]
+"2013
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2013:     struct {
+[s S86 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S86 . TXD8 . nTX8 ]
+"2018
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2018:     struct {
+[s S87 :6 `uc 1 :1 `uc 1 ]
+[n S87 . . TX8_9 ]
+"2002
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2002: typedef union {
+[u S84 `S85 1 `S86 1 `S87 1 ]
+[n S84 . . . . ]
+"2023
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2023: extern volatile TXSTAbits_t TXSTAbits __attribute__((address(0x098)));
+[v _TXSTAbits `VS84 ~T0 @X0 0 e@152 ]
+"2078
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2078: extern volatile unsigned char SPBRG __attribute__((address(0x099)));
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"458
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 458:     struct {
+[s S22 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S22 . RBIF INTF TMR0IF RBIE INTE TMR0IE PEIE GIE ]
+"468
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 468:     struct {
+[s S23 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S23 . . T0IF . T0IE ]
+"457
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 457: typedef union {
+[u S21 `S22 1 `S23 1 ]
+[n S21 . . . ]
+"475
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 475: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS21 ~T0 @X0 0 e@11 ]
+"1057
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1057: extern volatile unsigned char TXREG __attribute__((address(0x019)));
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"52 C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 52: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"59
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 59: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"66
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 66: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"73
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 73: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"159
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 159: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"166
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 166: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"216
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 216: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"278
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 278: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"340
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 340: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"402
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 402: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"434
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 434: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"454
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 454: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"532
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 532: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"594
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 594: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"634
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 634: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"641
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 641: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"648
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 648: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"655
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 655: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"730
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 730: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"737
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 737: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"808
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 808: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"815
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 815: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"885
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 885: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"892
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 892: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"899
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 899: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"906
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 906: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"964
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 964: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1059
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1059: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1066
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1066: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1073
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1073: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1080
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1080: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1087
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1087: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1094
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1094: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1152
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1152: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1159
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1159: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1255
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1255: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1325
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1325: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1375
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1375: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1437
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1437: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1499
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1499: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1561
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1561: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1618
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1618: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1680
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1680: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1720
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1720: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1754
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1754: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1816
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1816: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1823
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1823: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1830
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1830: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"1999
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 1999: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2080
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2080: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2087
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2087: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2157
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2157: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2222
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2222: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2229
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2229: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2288
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2288: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2295
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2295: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2302
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2302: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2309
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2309: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2316
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2316: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2361
+[; ;C:/Users/T-Gamer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h: 2361: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"13 comunicar_esp32.c
+[; ;comunicar_esp32.c: 13: static volatile char buffer_rx_usart[32];
+[v _buffer_rx_usart `Vuc ~T0 @X0 -> 32 `i s ]
+"15
+[; ;comunicar_esp32.c: 15: static volatile unsigned char indice_buffer_rx_usart = 0;
+[v _indice_buffer_rx_usart `Vuc ~T0 @X0 1 s ]
+[i _indice_buffer_rx_usart
+-> -> 0 `i `uc
+]
+"17
+[; ;comunicar_esp32.c: 17: static volatile _Bool flag_comando_disponivel = 0;
+[v _flag_comando_disponivel `Va ~T0 @X0 1 s ]
+[i _flag_comando_disponivel
+-> -> 0 `i `a
+]
+[v $root$_usart_isr `(v ~T0 @X0 0 e ]
+"22
+[; ;comunicar_esp32.c: 22: void __attribute__((picinterrupt(("")))) usart_isr(void) {
+[v _usart_isr `(v ~T1 @X0 1 ef ]
+{
+[e :U _usart_isr ]
+[f ]
+"24
+[; ;comunicar_esp32.c: 24:     if (PIE1bits.RCIE && PIR1bits.RCIF) {
+[e $ ! && != -> . . _PIE1bits 0 5 `i -> 0 `i != -> . . _PIR1bits 0 5 `i -> 0 `i 101  ]
+{
+"25
+[; ;comunicar_esp32.c: 25:         char byte_recebido;
+[v _byte_recebido `uc ~T0 @X0 1 a ]
+"28
+[; ;comunicar_esp32.c: 28:         if (RCSTAbits.OERR) {
+[e $ ! != -> . . _RCSTAbits 0 1 `i -> 0 `i 102  ]
+{
+"29
+[; ;comunicar_esp32.c: 29:             RCSTAbits.CREN = 0;
+[e = . . _RCSTAbits 0 4 -> -> 0 `i `uc ]
+"30
+[; ;comunicar_esp32.c: 30:             RCSTAbits.CREN = 1;
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"31
+[; ;comunicar_esp32.c: 31:         }
+}
+[e :U 102 ]
+"34
+[; ;comunicar_esp32.c: 34:         if (RCSTAbits.FERR) {
+[e $ ! != -> . . _RCSTAbits 0 2 `i -> 0 `i 103  ]
+{
+"35
+[; ;comunicar_esp32.c: 35:             byte_recebido = RCREG;
+[e = _byte_recebido -> _RCREG `uc ]
+"36
+[; ;comunicar_esp32.c: 36:         } else {
+}
+[e $U 104  ]
+[e :U 103 ]
+{
+"37
+[; ;comunicar_esp32.c: 37:             byte_recebido = RCREG;
+[e = _byte_recebido -> _RCREG `uc ]
+"38
+[; ;comunicar_esp32.c: 38:         }
+}
+[e :U 104 ]
+"40
+[; ;comunicar_esp32.c: 40:         if (!flag_comando_disponivel) {
+[e $ ! ! != -> _flag_comando_disponivel `i -> 0 `i 105  ]
+{
+"41
+[; ;comunicar_esp32.c: 41:             if (byte_recebido == '\r') {
+[e $ ! == -> _byte_recebido `ui -> 13 `ui 106  ]
+{
+"42
+[; ;comunicar_esp32.c: 42:                 if (indice_buffer_rx_usart < 32) {
+[e $ ! < -> _indice_buffer_rx_usart `i -> 32 `i 107  ]
+{
+"43
+[; ;comunicar_esp32.c: 43:                     buffer_rx_usart[indice_buffer_rx_usart] = '\0';
+[e = *U + &U _buffer_rx_usart * -> _indice_buffer_rx_usart `ux -> -> # *U &U _buffer_rx_usart `ui `ux -> -> 0 `ui `uc ]
+"44
+[; ;comunicar_esp32.c: 44:                     flag_comando_disponivel = 1;
+[e = _flag_comando_disponivel -> -> 1 `i `a ]
+"45
+[; ;comunicar_esp32.c: 45:                 } else {
+}
+[e $U 108  ]
+[e :U 107 ]
+{
+"46
+[; ;comunicar_esp32.c: 46:                     buffer_rx_usart[32 - 1] = '\0';
+[e = *U + &U _buffer_rx_usart * -> -> - -> 32 `i -> 1 `i `ui `ux -> -> # *U &U _buffer_rx_usart `ui `ux -> -> 0 `ui `uc ]
+"47
+[; ;comunicar_esp32.c: 47:                     flag_comando_disponivel = 1;
+[e = _flag_comando_disponivel -> -> 1 `i `a ]
+"48
+[; ;comunicar_esp32.c: 48:                 }
+}
+[e :U 108 ]
+"49
+[; ;comunicar_esp32.c: 49:             } else if (byte_recebido == '\r') {
+}
+[e $U 109  ]
+[e :U 106 ]
+[e $ ! == -> _byte_recebido `ui -> 13 `ui 110  ]
+{
+"51
+[; ;comunicar_esp32.c: 51:             } else if (indice_buffer_rx_usart < (32 - 1)) {
+}
+[e $U 111  ]
+[e :U 110 ]
+[e $ ! < -> _indice_buffer_rx_usart `i - -> 32 `i -> 1 `i 112  ]
+{
+"52
+[; ;comunicar_esp32.c: 52:                 buffer_rx_usart[indice_buffer_rx_usart++] = byte_recebido;
+[e = *U + &U _buffer_rx_usart * -> ++ _indice_buffer_rx_usart -> -> 1 `i `Vuc `ux -> -> # *U &U _buffer_rx_usart `ui `ux _byte_recebido ]
+"53
+[; ;comunicar_esp32.c: 53:             }
+}
+[e :U 112 ]
+[e :U 111 ]
+[e :U 109 ]
+"54
+[; ;comunicar_esp32.c: 54:         }
+}
+[e :U 105 ]
+"55
+[; ;comunicar_esp32.c: 55:     }
+}
+[e :U 101 ]
+"56
+[; ;comunicar_esp32.c: 56: }
+[e :UE 100 ]
+}
+"61
+[; ;comunicar_esp32.c: 61: void comunicar_esp32_inicializar_usart(long baud_rate) {
+[v _comunicar_esp32_inicializar_usart `(v ~T0 @X0 1 ef1`l ]
+{
+[e :U _comunicar_esp32_inicializar_usart ]
+[v _baud_rate `l ~T0 @X0 1 r1 ]
+[f ]
+"62
+[; ;comunicar_esp32.c: 62:     TRISCbits.TRISC7 = 1;
+[e = . . _TRISCbits 0 7 -> -> 1 `i `uc ]
+"63
+[; ;comunicar_esp32.c: 63:     TRISCbits.TRISC6 = 0;
+[e = . . _TRISCbits 0 6 -> -> 0 `i `uc ]
+"65
+[; ;comunicar_esp32.c: 65:     unsigned int spbrg_valor_calc;
+[v _spbrg_valor_calc `ui ~T0 @X0 1 a ]
+"67
+[; ;comunicar_esp32.c: 67:     TXSTAbits.BRGH = 1;
+[e = . . _TXSTAbits 0 2 -> -> 1 `i `uc ]
+"69
+[; ;comunicar_esp32.c: 69:     if (baud_rate > 0) {
+[e $ ! > _baud_rate -> -> 0 `i `l 114  ]
+{
+"71
+[; ;comunicar_esp32.c: 71:         spbrg_valor_calc = (unsigned int)(((double)4000000 / (16.0 * (double)baud_rate)) - 1.0);
+[e = _spbrg_valor_calc -> - / -> -> 4000000 `l `d * .16.0 -> _baud_rate `d .1.0 `ui ]
+"72
+[; ;comunicar_esp32.c: 72:     } else {
+}
+[e $U 115  ]
+[e :U 114 ]
+{
+"74
+[; ;comunicar_esp32.c: 74:         spbrg_valor_calc = 25;
+[e = _spbrg_valor_calc -> -> 25 `i `ui ]
+"75
+[; ;comunicar_esp32.c: 75:     }
+}
+[e :U 115 ]
+"78
+[; ;comunicar_esp32.c: 78:     SPBRG = (unsigned char)spbrg_valor_calc;
+[e = _SPBRG -> _spbrg_valor_calc `uc ]
+"80
+[; ;comunicar_esp32.c: 80:     TXSTAbits.SYNC = 0;
+[e = . . _TXSTAbits 0 4 -> -> 0 `i `uc ]
+"81
+[; ;comunicar_esp32.c: 81:     RCSTAbits.SPEN = 1;
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"82
+[; ;comunicar_esp32.c: 82:     TXSTAbits.TXEN = 1;
+[e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
+"83
+[; ;comunicar_esp32.c: 83:     RCSTAbits.CREN = 1;
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"85
+[; ;comunicar_esp32.c: 85:     PIE1bits.RCIE = 1;
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"86
+[; ;comunicar_esp32.c: 86:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"87
+[; ;comunicar_esp32.c: 87:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"89
+[; ;comunicar_esp32.c: 89:     indice_buffer_rx_usart = 0;
+[e = _indice_buffer_rx_usart -> -> 0 `i `uc ]
+"90
+[; ;comunicar_esp32.c: 90:     flag_comando_disponivel = 0;
+[e = _flag_comando_disponivel -> -> 0 `i `a ]
+"93
+[; ;comunicar_esp32.c: 93:     char dummy;
+[v _dummy `uc ~T0 @X0 1 a ]
+"94
+[; ;comunicar_esp32.c: 94:     if(PIR1bits.RCIF) dummy = RCREG;
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 116  ]
+[e = _dummy -> _RCREG `uc ]
+[e :U 116 ]
+"95
+[; ;comunicar_esp32.c: 95:     if(PIR1bits.RCIF) dummy = RCREG;
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 117  ]
+[e = _dummy -> _RCREG `uc ]
+[e :U 117 ]
+"96
+[; ;comunicar_esp32.c: 96:     if(PIR1bits.RCIF) dummy = RCREG;
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 118  ]
+[e = _dummy -> _RCREG `uc ]
+[e :U 118 ]
+"97
+[; ;comunicar_esp32.c: 97: }
+[e :UE 113 ]
+}
+"99
+[; ;comunicar_esp32.c: 99: void comunicar_esp32_enviar_byte(uint8_t dado) {
+[v _comunicar_esp32_enviar_byte `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _comunicar_esp32_enviar_byte ]
+[v _dado `uc ~T0 @X0 1 r1 ]
+[f ]
+"100
+[; ;comunicar_esp32.c: 100:     while (!TXSTAbits.TRMT);
+[e $U 120  ]
+[e :U 121 ]
+[e :U 120 ]
+[e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 121  ]
+[e :U 122 ]
+"101
+[; ;comunicar_esp32.c: 101:     TXREG = dado;
+[e = _TXREG _dado ]
+"102
+[; ;comunicar_esp32.c: 102: }
+[e :UE 119 ]
+}
+"104
+[; ;comunicar_esp32.c: 104: void comunicar_esp32_enviar_string(const char* str) {
+[v _comunicar_esp32_enviar_string `(v ~T0 @X0 1 ef1`*Cuc ]
+{
+[e :U _comunicar_esp32_enviar_string ]
+[v _str `*Cuc ~T0 @X0 1 r1 ]
+[f ]
+"105
+[; ;comunicar_esp32.c: 105:     while (*str) {
+[e $U 124  ]
+[e :U 125 ]
+{
+"106
+[; ;comunicar_esp32.c: 106:         comunicar_esp32_enviar_byte(*str++);
+[e ( _comunicar_esp32_enviar_byte (1 -> *U ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x `uc ]
+"107
+[; ;comunicar_esp32.c: 107:     }
+}
+[e :U 124 ]
+"105
+[; ;comunicar_esp32.c: 105:     while (*str) {
+[e $ != -> *U _str `i -> 0 `i 125  ]
+[e :U 126 ]
+"108
+[; ;comunicar_esp32.c: 108: }
+[e :UE 123 ]
+}
+"110
+[; ;comunicar_esp32.c: 110: _Bool comunicar_esp32_comando_recebido_disponivel(void) {
+[v _comunicar_esp32_comando_recebido_disponivel `(a ~T0 @X0 1 ef ]
+{
+[e :U _comunicar_esp32_comando_recebido_disponivel ]
+[f ]
+"111
+[; ;comunicar_esp32.c: 111:     return flag_comando_disponivel;
+[e ) _flag_comando_disponivel ]
+[e $UE 127  ]
+"112
+[; ;comunicar_esp32.c: 112: }
+[e :UE 127 ]
+}
+"114
+[; ;comunicar_esp32.c: 114: _Bool comunicar_esp32_ler_comando_recebido(char* buffer_destino, unsigned char tamanho_max_buffer) {
+[v _comunicar_esp32_ler_comando_recebido `(a ~T0 @X0 1 ef2`*uc`uc ]
+{
+[e :U _comunicar_esp32_ler_comando_recebido ]
+[v _buffer_destino `*uc ~T0 @X0 1 r1 ]
+[v _tamanho_max_buffer `uc ~T0 @X0 1 r2 ]
+[f ]
+"115
+[; ;comunicar_esp32.c: 115:     if (flag_comando_disponivel) {
+[e $ ! != -> _flag_comando_disponivel `i -> 0 `i 129  ]
+{
+"116
+[; ;comunicar_esp32.c: 116:         INTCONbits.GIE = 0;
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+"118
+[; ;comunicar_esp32.c: 118:         unsigned char tamanho_comando = indice_buffer_rx_usart;
+[v _tamanho_comando `uc ~T0 @X0 1 a ]
+[e = _tamanho_comando _indice_buffer_rx_usart ]
+"119
+[; ;comunicar_esp32.c: 119:         if (tamanho_comando >= tamanho_max_buffer) {
+[e $ ! >= -> _tamanho_comando `i -> _tamanho_max_buffer `i 130  ]
+{
+"120
+[; ;comunicar_esp32.c: 120:             tamanho_comando = tamanho_max_buffer - 1;
+[e = _tamanho_comando -> - -> _tamanho_max_buffer `i -> 1 `i `uc ]
+"121
+[; ;comunicar_esp32.c: 121:         }
+}
+[e :U 130 ]
+"123
+[; ;comunicar_esp32.c: 123:         for (unsigned char i = 0; i < tamanho_comando; i++) {
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $U 134  ]
+[e :U 131 ]
+{
+"124
+[; ;comunicar_esp32.c: 124:             buffer_destino[i] = buffer_rx_usart[i];
+[e = *U + _buffer_destino * -> _i `ux -> -> # *U _buffer_destino `ui `ux *U + &U _buffer_rx_usart * -> _i `ux -> -> # *U &U _buffer_rx_usart `ui `ux ]
+"125
+[; ;comunicar_esp32.c: 125:         }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 134 ]
+[e $ < -> _i `i -> _tamanho_comando `i 131  ]
+[e :U 132 ]
+}
+"126
+[; ;comunicar_esp32.c: 126:         buffer_destino[tamanho_comando] = '\0';
+[e = *U + _buffer_destino * -> _tamanho_comando `ux -> -> # *U _buffer_destino `ui `ux -> -> 0 `ui `uc ]
+"128
+[; ;comunicar_esp32.c: 128:         indice_buffer_rx_usart = 0;
+[e = _indice_buffer_rx_usart -> -> 0 `i `uc ]
+"129
+[; ;comunicar_esp32.c: 129:         flag_comando_disponivel = 0;
+[e = _flag_comando_disponivel -> -> 0 `i `a ]
+"131
+[; ;comunicar_esp32.c: 131:         INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"132
+[; ;comunicar_esp32.c: 132:         return 1;
+[e ) -> -> 1 `i `a ]
+[e $UE 128  ]
+"133
+[; ;comunicar_esp32.c: 133:     }
+}
+[e :U 129 ]
+"134
+[; ;comunicar_esp32.c: 134:     return 0;
+[e ) -> -> 0 `i `a ]
+[e $UE 128  ]
+"135
+[; ;comunicar_esp32.c: 135: }
+[e :UE 128 ]
+}
