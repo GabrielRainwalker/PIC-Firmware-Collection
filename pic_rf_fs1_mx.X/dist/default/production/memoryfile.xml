@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\pic_rf_fs1_mx.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>2048</length>
+      <used>168</used>
+      <free>1880</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>224</length>
+      <used>16</used>
+      <free>208</free>
+    </memory>
+  </executable>
+</project>

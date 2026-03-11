@@ -1,0 +1,47 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"70 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_rf_fs1_mx.X\main.c
+[v _manchester_read manchester_read `(uc  1 e 1 0 ]
+"82
+[v _main main `(v  1 e 1 0 ]
+"767 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f628a.h
+[v _CMCON CMCON `VEuc  1 e 1 @31 ]
+"907
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"969
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1462
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"1507
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"82 C:\Users\gduar\OneDrive\Documentos\PIC PROJETOS\pic_rf_fs1_mx.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+[v main@cmd cmd `uc  1 a 1 7 ]
+"91
+[v main@checksum checksum `uc  1 a 1 6 ]
+"100
+} 0
+"70
+[v _manchester_read manchester_read `(uc  1 e 1 0 ]
+{
+"75
+[v manchester_read@bit bit `uc  1 a 1 1 ]
+"72
+[v manchester_read@i i `i  1 a 2 3 ]
+"71
+[v manchester_read@data data `uc  1 a 1 2 ]
+"80
+} 0
