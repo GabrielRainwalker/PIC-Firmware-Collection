@@ -1,0 +1,20 @@
+# MPLAB-X - arquivos gerados pela IDE
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.mtj.tmp/
+
+# Arquivos compilados intermediários
+*.o
+*.d
+*.pre
+*.p1
+*.cmf
+*.rlf
+*.sdb
+*.lst
+
+# Manter o .hex final de produção
+!*.hex
